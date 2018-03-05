@@ -212,6 +212,7 @@ export const createImageProgress = ImageComponent =>
             ]}
           />
           {indicatorElement}
+          {children}
         </View>
       );
 
